@@ -74,6 +74,11 @@ input{
   .dataList{
     margin-top: 85px;
   }
+  .data button{
+    margin-left: 7px;
+    width: 56px;
+    height: 56px;
+  }
   .checker{
     position: relative;
     display: flex;
