@@ -62,3 +62,37 @@ input{
   margin-left: 7%;
  
 }
+@media screen and (max-width: 390px){
+  .container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    background-repeat: no-repeat;
+    background-position: contain;
+  }
+  .dataList{
+    margin-top: 85px;
+  }
+  .checker{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .check{
+    padding-top: 5.5%;
+    margin-left: 20px;
+  }
+  .bin{
+    position: fixed;
+    padding-top: 3.5%;
+    margin-left: 62%;
+  }
+  .counter{
+    position: fixed;
+    margin-top: 465px;
+    margin-left: 22%;
+  }
+  
+  }
