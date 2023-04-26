@@ -38,8 +38,8 @@ function Check({ text }) {
         <div className='checker' style={dataStyle}>
           <div className='check'>
             <input type='checkBox' id='checkbox' checked={isChecked} onChange={checkHandler} />
-            {marker}
           </div>
+           <div className='text'> {marker}</div>
           <div className='bin'>{isChecked ? <i class="bi bi-trash3-fill" style={binStyle} onClick={removeHandler}></i> : ''}</div>
         </div>
       }
@@ -81,7 +81,7 @@ function Data() {
       <div style={styles} className='container'>
         <div className='data'>
           <input type="text" placeholder='Add your todo' onChange={(e) => setItem(e.target.value)} value={item} />
-          <button onClick={add}>+</button>
+          <button onClick={add}><p>+</p></button>
         </div>
         <div className='dataList'>
           {data.map((i) => <Check key={i} text={i} />)}

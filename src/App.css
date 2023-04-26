@@ -37,6 +37,9 @@ input{
   font-size: 24px;
   background-color: rgb(16, 184, 184);
 }
+button p{
+  margin: auto;
+}
 .dataList{
   margin-top: 75px;
 }
@@ -50,7 +53,10 @@ input{
   padding-top: 5%;
   margin-left: 20px;
 }
-
+.text{
+  padding-top: 5%;
+  margin-left: 20px;
+}
 .bin{
   position: fixed;
   padding-top: 1%;
@@ -79,6 +85,9 @@ input{
     width: 60px;
     height: 60px;
   }
+  button p{
+    margin: auto;
+  }
   .checker{
     position: relative;
     display: flex;
@@ -92,7 +101,7 @@ input{
   .bin{
     position: fixed;
     padding-top: 3.5%;
-    margin-left: 62%;
+    margin-left: 68%;
   }
   .counter{
     position: fixed;
