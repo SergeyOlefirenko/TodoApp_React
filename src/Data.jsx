@@ -50,7 +50,7 @@ function Check({ text }) {
 }
 
 const styles = {
-  width: '300px',
+  width: '310px',
   height: '500px',
   border: '1.5px none',
   borderRadius: '15px',
