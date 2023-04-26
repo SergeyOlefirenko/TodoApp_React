@@ -28,7 +28,7 @@ function Check({ text }) {
   }
   const dataStyle = {
     margin: '5px auto',
-    width: '285px',
+    width: '290px',
     height: '56px',
     backgroundColor: 'rgb(249, 248, 248)'
   }
